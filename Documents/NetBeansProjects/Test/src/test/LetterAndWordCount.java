@@ -14,8 +14,8 @@ public class LetterAndWordCount
 
         Map<String, Integer> ketQuaTu = wordCount(chuoi);
         Map<Character, Integer> ketQuaKyTu = letterCount(chuoi);
-
-        // In số lần xuất hiện của từng từ
+        
+        // In số lần xuất hiện của từng từ//
         for (Map.Entry<String, Integer> entry : ketQuaTu.entrySet()) 
         {
             String tu = entry.getKey();
